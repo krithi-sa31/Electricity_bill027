@@ -35,7 +35,7 @@ int main()
     }
     if (units>300)
     {
-        base+=((units - 300.0f) * 10.0f); //next 200 units * ₹7
+        base+=((units - 300.0f) * 10.0f); //above 300 units * ₹10
     }
     
     if (base>1000.0f)
